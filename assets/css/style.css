@@ -1,0 +1,25 @@
+h1{
+  font-family:'Segoe UI';
+  text-align: left;
+  font-size: 80px;
+  color: rgb(186, 148, 186);
+  background-image: linear-gradient(to right, rgb(192, 29, 148) , black);
+  padding: 50px;
+}
+
+h2{
+  font-family:'Segoe UI';
+  text-align: left;
+  font-size: 80px;
+  color: rgb(186, 148, 186);
+  background-image: linear-gradient(to right, rgb(192, 29, 148) , black);
+  padding: 50px;
+}
+h3{
+  font-family:'Segoe UI';
+  text-align: left;
+  font-size: 80px;
+  color: rgb(186, 148, 186);
+  background-image: linear-gradient(to right, rgb(192, 29, 148) , black);
+  padding: 50px;
+}
