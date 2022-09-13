@@ -23,3 +23,10 @@ h3{
   background-image: linear-gradient(to right, rgb(192, 29, 148) , black);
   padding: 50px;
 }
+
+.nav {
+  text-align: right;
+  font-family:'Segoe UI';
+  padding: 20px;
+
+}
