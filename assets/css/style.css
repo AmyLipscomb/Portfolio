@@ -1,3 +1,19 @@
+nav{
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: Georgia;
+  font-size: 20px;
+}
+
+header nav ul{
+  list-style-type: none;
+}
+
+header nav ul li{
+  display: inline-block;
+  margin-left: 15px;
+}
 h1{
   font-family:'Segoe UI';
   text-align: left;
@@ -9,24 +25,14 @@ h1{
 h2{
   font-family:'Segoe UI';
   text-align: left;
-  font-size: 80px;
-  color: rgb(186, 148, 186);
-  background-image: linear-gradient(to right, rgb(192, 29, 148) , black);
-  padding: 50px;
+  font-size: 20px;
+  color: rgb(7, 214, 73);
 }
 h3{
   font-family:'Segoe UI';
   text-align: left;
-  font-size: 80px;
-  color: rgb(186, 148, 186);
-  background-image: linear-gradient(to right, rgb(192, 29, 148) , black);
-  padding: 50px;
-}
-
-.nav {
-  text-align: right;
-  font-family:'Segoe UI';
-  padding: 20px;
+  font-size: 20px;
+  color: rgb(7, 214, 73);
 }
 
 body{
@@ -36,6 +42,7 @@ body{
 
 img{
   width: 500px;
+  
   
   
 }
