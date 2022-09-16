@@ -1,15 +1,31 @@
 header{
-  padding-top:15px; 
-  color:whitesmoke;
+  padding-top: 15px; 
   text-align:center;
   font-size:30px;
 }
 nav{
-  padding-top: 15px;
-  margin-right: 20px;
-  float: left;
+  /* padding-top: 15px; */
+  /* margin-right: 20px; */
+  /* float: left; */
   font-family: Georgia;
   font-size: 15px;
+}
+
+.padding-0 {
+  padding: 0;
+}
+
+.section {
+  display: flex;
+    gap: 40px;
+    align-items: baseline;
+    margin-left: 6%;
+}
+
+.work-imgs {
+  display: flex;
+    width: 80%;
+    flex-wrap: wrap;
 }
 
 header nav ul{
@@ -24,9 +40,6 @@ h1{
   font-family:'Segoe UI';
   text-align: left;
   font-size: 20px;
-  color:whitesmoke;
-  padding-top: 80px;
-  padding-bottom:20px;
 
 }
 
@@ -57,7 +70,9 @@ p{
 }
 
 img{
-  width: 500px;
+  width: 315px;
   float:right;
-  
+}
+.whitesmoke{
+  color: whitesmoke;
 }
