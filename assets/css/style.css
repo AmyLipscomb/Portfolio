@@ -28,6 +28,10 @@ nav{
   flex-wrap: wrap;
 }
 
+.assignmentone img{
+  width: 315px;
+}
+
 header nav ul{
   list-style-type: none;
 }
@@ -40,8 +44,6 @@ h1{
   font-family:'Segoe UI';
   text-align: left;
   font-size: 20px;
-
-
 }
 
 h2{
@@ -71,7 +73,7 @@ p{
 }
 
 img{
-  width: 315px;
+  width: 300px;
   float:right;
 }
 .whitesmoke{
