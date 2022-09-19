@@ -1,6 +1,7 @@
 # Portfolio
 Welcome! If you don't know me by now, then hopefully by the end of viewing my portfolio, you will! Below is a snippet of what it looks like. Please take a look and enjoy. 
-![Website-Preview](./assets/images/portfolioscreenshot.png)
+
+![Website-Preview](./assets/images/amyreadmescreenshot.png)
 [Deployed Website][]
 
 <strong>My Task</strong>
