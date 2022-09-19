@@ -79,3 +79,10 @@ img{
 .whitesmoke{
   color: whitesmoke;
 }
+
+footer{
+  background-color: black;
+  font-family:Georgia;
+  color:whitesmoke;
+  text-align:center;
+}
