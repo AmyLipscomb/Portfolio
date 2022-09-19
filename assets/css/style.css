@@ -29,7 +29,8 @@ nav{
 }
 
 .assignmentone img{
-  width: 315px;
+  width: 800px;
+  height:auto;
 }
 
 header nav ul{
@@ -70,11 +71,12 @@ body{
 
 p{
   color:whitesmoke;
+  width: 800px;
+  line-height: 2em;
 }
 
 img{
   width: 300px;
-  float:right;
 }
 .whitesmoke{
   color: whitesmoke;
@@ -85,4 +87,32 @@ footer{
   font-family:Georgia;
   color:whitesmoke;
   text-align:center;
+}
+#about-section span{
+  float: right;
+}
+#work-section ul {
+  list-style: none;
+  padding:0;
+  margin:0;
+  display:flex;
+  flex-direction: column;
+  flex-wrap:wrap;
+  height: 700px;
+
+}
+#work-section li:first-child{
+  flex:0 0 100%
+}
+
+@media screen and (max-width:768px){
+  .assignmentone img{
+    width: 300px;
+    
+  }
+  #work-section ul {
+   
+    height: auto;
+  
+  }
 }
