@@ -1,7 +1,7 @@
 header{
     padding-top: 15px; 
     text-align:center;
-    font-size:30px;
+    font-size:50px;
   }
 
   header nav ul{
@@ -14,17 +14,27 @@ header{
   }
 
   nav{
-    font-family: Georgia;
+    font-family:   'Poiret One', cursive;
     font-size: 15px;
+
   }
 
+  .almond{
+        color: #F2E2D2;
+  }
+  
   body{
-    background-color: black;
-    font-family:Georgia;
+    background-color: #0D1317;
+    font-family:  'Poiret One', cursive;
   }
 
-  .whitesmoke{
-    color: whitesmoke;
+  .ashGray{
+    color: #BCC1BA;
+  }
+
+  
+  #About-Me{
+    font-size: 30px;
   }
 
   #carouselExampleFade div {
