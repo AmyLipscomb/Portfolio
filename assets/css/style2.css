@@ -16,26 +16,39 @@ header{
   nav{
     font-family:   'Poiret One', cursive;
     font-size: 15px;
+    text-align:center;
+    
 
   }
 
-  .almond{
+  /* .almond{
         color: #F2E2D2;
-  }
+  } */
   
   body{
     background-color: #0D1317;
     font-family:  'Poiret One', cursive;
   }
 
-  .ashGray{
-    color: #BCC1BA;
+  .almond{
+    color: #f2e2d2
   }
 
   
   #About-Me{
     font-size: 30px;
   }
+
+ p{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 100px;
+    font-family:  'Poiret One', cursive;
+    padding-top: 100px; 
+    padding-left:300px;
+    text-align:center;
+  }
+
 
   #carouselExampleFade div {
     width: 200px;
