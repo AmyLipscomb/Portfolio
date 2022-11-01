@@ -1,9 +1,11 @@
+/* css for the header */
 header{
     padding-top: 15px; 
     text-align:center;
     font-size:50px;
   }
 
+  /* To take away the bullets in nav bar */
   header nav ul{
     list-style-type: none;
   }
@@ -17,7 +19,6 @@ header{
     font-family:   'Poiret One', cursive;
     font-size: 15px;
     text-align:center;
-    
 
   }
 
@@ -25,21 +26,35 @@ header{
         color: #F2E2D2;
   } */
   
+  /* css for the body */
   body{
     background-color: #0D1317;
     font-family:  'Poiret One', cursive;
+    margin: 0; 
   }
 
   .almond{
     color: #f2e2d2
   }
 
-  
-  #About-Me{
-    font-size: 30px;
+ /* This code is to show the mainSlide only */
+  .container div{
+    height: 100vh;
+    background-color:  #0D1317;
+    box-sizing: border-box;
   }
+  
+.aboutSlide{
+    height: 100vh;
+    background-color: #f2e2d2;
+    color: #0D1317;
+    box-sizing: border-box;
+    text-align:center
+  }
+ 
 
- p{
+ /* vertical 'AMY'-mainslide */
+  .verticalName{
     writing-mode: vertical-rl;
     text-orientation: upright;
     font-size: 100px;
@@ -50,11 +65,17 @@ header{
   }
 
 
-  #carouselExampleFade div {
+
+
+  #About-Me{
+    font-size: 30px;
+  }
+
+  /* #carouselExampleFade div {
     width: 200px;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-  }
+  } */
