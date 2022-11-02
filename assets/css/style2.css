@@ -46,10 +46,13 @@ header{
   
 .aboutSlide{
     height: 100vh;
+    width: 100vw; /*needed to add a 'vw' because we wanted the width, so that it will match the height 'vh' */
+    position:absolute; /*needed to make the position absolute so that we could move it all the way to the left*/
+    left:0; /*this means it HAS to start at the start of the left-side browser, starting at pixel zero */
     background-color: #f2e2d2;
     color: #0D1317;
     box-sizing: border-box;
-    text-align:center
+    text-align:center;
   }
  
 
