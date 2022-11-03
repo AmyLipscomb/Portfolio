@@ -16,7 +16,7 @@ header{
   }
 
   nav{
-    font-family:   'Poiret One', cursive;
+    font-family: 'Poiret One', cursive;
     font-size: 15px;
     text-align:center;
 
@@ -46,7 +46,7 @@ header{
   }
   
 #aboutSlide{
-    height: 70vh;
+    height: 100vh;
     width: 100vw; /*needed to add a 'vw' because we wanted the width, so that it will match the height 'vh' */
     /* position:absolute; /*needed to make the position absolute so that we could move it all the way to the left
     left:0; this means it HAS to start at the start of the left-side browser, starting at pixel zero */
@@ -55,17 +55,17 @@ header{
     box-sizing: border-box;
     text-align:center;
     padding-top: 10px;
-  };
+  } /*; <--do not put a semicolon at the end of the curly brace, will affect the code below it*/
 
   #workSlide{
     height: 100vh;
-    width: 100vw; /*needed to add a 'vw' because we wanted the width, so that it will match the height 'vh' */
+    width: 100vw; /*needed to add a 'vw' because we wanted the width, so that it will match the height 'vh'*/
     /* position:absolute; /*needed to make the position absolute so that we could move it all the way to the left 
     left:0; /*this means it HAS to start at the start of the left-side browser, starting at pixel zero */
     background-color: #0D1317;
     color: #f2e2d2;
     box-sizing: border-box;
-    text-align: center!important;
+    text-align: center !important;
   }
  
 
@@ -81,13 +81,11 @@ header{
   }
 
 
-
-
   #About-Me, #Work{
     font-size: 30px;
     font-weight: bolder;
     margin-top:3vh;
-  };
+  }
 
     .card-text{
         font-size:1.2rem!important;
