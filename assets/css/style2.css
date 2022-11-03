@@ -31,6 +31,7 @@ header{
     background-color: #0D1317;
     font-family:  'Poiret One', cursive;
     margin: 0; 
+    padding:0;
   }
 
   .almond{
@@ -38,21 +39,33 @@ header{
   }
 
  /* This code is to show the mainSlide only */
-  .container div{
+  .container {
     height: 100vh;
     background-color:  #0D1317;
     box-sizing: border-box;
   }
   
-.aboutSlide{
-    height: 100vh;
+#aboutSlide{
+    height: 70vh;
     width: 100vw; /*needed to add a 'vw' because we wanted the width, so that it will match the height 'vh' */
-    position:absolute; /*needed to make the position absolute so that we could move it all the way to the left*/
-    left:0; /*this means it HAS to start at the start of the left-side browser, starting at pixel zero */
+    /* position:absolute; /*needed to make the position absolute so that we could move it all the way to the left
+    left:0; this means it HAS to start at the start of the left-side browser, starting at pixel zero */
     background-color: #f2e2d2;
     color: #0D1317;
     box-sizing: border-box;
     text-align:center;
+    padding-top: 10px;
+  };
+
+  #workSlide{
+    height: 100vh;
+    width: 100vw; /*needed to add a 'vw' because we wanted the width, so that it will match the height 'vh' */
+    /* position:absolute; /*needed to make the position absolute so that we could move it all the way to the left 
+    left:0; /*this means it HAS to start at the start of the left-side browser, starting at pixel zero */
+    background-color: #0D1317;
+    color: #f2e2d2;
+    box-sizing: border-box;
+    text-align: center!important;
   }
  
 
@@ -70,10 +83,21 @@ header{
 
 
 
-  #About-Me{
+  #About-Me, #Work{
     font-size: 30px;
-  }
+    font-weight: bolder;
+    margin-top:3vh;
+  };
 
+    .card-text{
+        font-size:1.2rem!important;
+        line-height: 2.5!important;
+        text-align:justify!important;
+    }
+    .card-title{
+        text-align:justify!important;
+    }
+ 
   /* #carouselExampleFade div {
     width: 200px;
     height: auto;
