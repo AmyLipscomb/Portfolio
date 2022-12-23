@@ -95,7 +95,32 @@ header{
     .card-title{
         text-align:justify!important;
     }
- 
+    
+
+    /* To make the screen readable on all devices */
+    @media screen and (min-width: 350px){
+      .about {
+          display:flex;
+          flex-direction:column;
+          flex-basis: 100%;
+      }
+      .location {
+          display:flex;
+          flex-direction:column;
+          flex-basis: 70%;
+      }
+  }
+  @media screen and (min-width: 780px){
+      .about {
+          display:flex;
+          flex-direction:column;
+          flex-basis: 50%;
+      }
+      .location {
+          display:flex;
+          flex-direction:column;
+          flex-basis: 50%;
+  }}
   /* #carouselExampleFade div {
     width: 200px;
     height: auto;
